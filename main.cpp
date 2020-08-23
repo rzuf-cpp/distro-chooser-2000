@@ -16,7 +16,7 @@ int main()
 {
     int max = 100;
     cout<<"2 operating sistems to chose"<<endl;
-    //wiem ?e kalecze angielski
+    //I am not good in english
     cout<<"distro one:";
     cin>>distro1;
     cout<<"distro two:";
