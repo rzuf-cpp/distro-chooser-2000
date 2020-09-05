@@ -8,32 +8,32 @@ string distro1;
 string distro2;
 
 int max;
-int chose;
+int choose;
 
 int end;
 
 int main()
 {
     int max = 100;
-    cout<<"2 operating sistems to chose"<<endl;
+    cout<<"2 operating sistems to choose"<<endl;
     //I am not good in english
     cout<<"distro one:";
     cin>>distro1;
     cout<<"distro two:";
     cin>>distro2;
     srand(time(0));
-    chose = rand()%max;
+    choose = rand()%max;
     
-	if(chose <= 50)
+	if(choose <= 50)
 	{
 		cout<<distro1<<" is a winner"<<endl;
 	}
-	else if(chose >= 50)
+	else if(choose >= 50)
 	{
 		cout<<distro2<<" is a winner"<<endl;
 	}
 	
-	cout<<"chose the nuber and pres the enter to exit"<<endl;
+	cout<<"choose any number, and then press enter key to exit"<<endl;
 	cin>>end;
 	    
     return 0;
