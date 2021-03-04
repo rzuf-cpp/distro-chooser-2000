@@ -1,4 +1,7 @@
 # distro-choser-2000
+
+uwaga, skompilowana wersja przekłamuje wynik o 1% na korzyść pierwszej dystrybucji, w celu uzyskania w pełni losowego wyniku należy skompilować plik main.cpp
+
 ten program ułatwi ci wybieranie dystrybucji linuxa
 został napisany w c++ na potrzeby własne, ale postanowiłem go opublikować
 
