@@ -14,7 +14,7 @@ int end;
 
 int main()
 {
-    int max = 100;
+    int max = 101;
     cout<<"2 operating sistems to choose"<<endl;
     //I am not good in english
     cout<<"distro one:";
